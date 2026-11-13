@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Project",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "maxLength": 100,
+        "description": "Project name"
+      },
+      "industry": {
+        "type": "string",
+        "maxLength": 100,
+        "description": "Industry or sector of the project"
+      },
+      "challenge": {
+        "type": "text",
+        "description": "The client challenge the project addressed"
+      },
+      "delivered": {
+        "type": "text",
+        "description": "What BlueOak delivered"
+      },
+      "outcome": {
+        "type": "text",
+        "description": "Verified outcome; leave empty when none is verified so it stays hidden"
+      },
+      "image": {
+        "type": "string",
+        "maxLength": 500,
+        "description": "Screenshot URL; empty shows an original mockup placeholder"
+      },
+      "url": {
+        "type": "string",
+        "maxLength": 500,
+        "description": "Case-study link; empty hides the View project link"
+      },
+      "isConcept": {
+        "type": "boolean",
+        "default": true,
+        "description": "True shows a visible Concept project badge"
+      },
+      "sortOrder": {
+        "type": "number",
+        "description": "Display order"
+      }
+    },
+    "required": [
+      "title"
+    ],
+    "publicRead": true,
+    "publicCreate": false
+  },
+  {
+    "name": "Product",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "maxLength": 100,
+        "description": "Product name"
+      },
+      "audience": {
+        "type": "string",
+        "maxLength": 250,
+        "description": "Who the product serves"
+      },
+      "problem": {
+        "type": "text",
+        "description": "The problem the product solves"
+      },
+      "screenshot": {
+        "type": "string",
+        "maxLength": 500,
+        "description": "Product screenshot URL"
+      },
+      "actionLabel": {
+        "type": "enum",
+        "values": [
+          "explore",
+          "demo"
+        ],
+        "labels": {
+          "explore": "Explore product",
+          "demo": "Request a demo"
+        },
+        "description": "Which call-to-action label to show"
+      },
+      "actionUrl": {
+        "type": "string",
+        "maxLength": 500,
+        "description": "Where the action button links; empty goes to the contact page"
+      },
+      "sortOrder": {
+        "type": "number",
+        "description": "Display order"
+      }
+    },
+    "required": [
+      "name"
+    ],
+    "publicRead": true,
+    "publicCreate": false
+  },
+  {
+    "name": "ContactMessage",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "maxLength": 100,
+        "description": "Sender's name"
+      },
+      "email": {
+        "type": "string",
+        "maxLength": 250,
+        "description": "Sender's work email"
+      },
+      "company": {
+        "type": "string",
+        "maxLength": 100,
+        "description": "Sender's company, optional"
+      },
+      "message": {
+        "type": "text",
+        "description": "Project summary"
+      }
+    },
+    "required": [
+      "name",
+      "email",
+      "message"
+    ],
+    "publicRead": false,
+    "publicCreate": true
+  }
+]

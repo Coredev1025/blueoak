@@ -1,0 +1,145 @@
+{
+  "appType": "website",
+  "category": "consulting",
+  "title": "BlueOak Software LLC",
+  "description": "A polished, animated company introduction and portfolio website for BlueOak Software LLC that presents its services, selected work, process and approach, and invites prospective clients to get in touch.",
+  "slug": "blueoak-software",
+  "lang": [
+    "en"
+  ],
+  "userLang": "en",
+  "fontFamily": "Manrope",
+  "headingFamily": "Nunito",
+  "fontLink": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap",
+  "pages": [
+    {
+      "name": "Home",
+      "title": "Home",
+      "info": "The flagship page and the full story in one scroll. (1) Dark navy (#091A3A) hero directly below the white sticky header: on the left a small label 'BlueOak Software LLC', the headline 'Strong foundations. Exceptional software.' on two lines, the supporting copy 'We turn ambitious ideas into thoughtfully designed digital products—built around your business, your users, and what comes next.', a primary CTA 'Discuss your project' linking to /contact and a secondary outline CTA 'Explore our work' linking to /work. On the right is a bespoke HTML/SVG interface composition: a central dashboard card with a crisp line chart, KPI tiles and a small table, plus two smaller floating panels (a toggle/settings panel and a mini donut/progress card). These sit over a thin branching connection diagram where gentle blue light travels along 2-3 paths. It is clearly decorative, with no claim that it is a shipped product, and it is simplified to a single card on mobile. (2) A light services teaser titled 'From first idea to working product.' with a bento grid of the six services (Custom Software Development and AI and Automation as larger featured tiles) and a 'See all services' link to /services. (3) A dark featured-work band titled 'Software with a purpose.' showing the first 2 Project records in an editorial layout with a visible 'Concept project' badge when isConcept is true. Each card has an original mockup placeholder, and 'View project' appears only when url is set. It includes a link to /work. (4) A light process strip titled 'A clear path from idea to launch.' with the four steps 01 Discover, 02 Design, 03 Build and 04 Launch & Evolve, joined by branch-like connectors. (5) A closing navy CTA band 'Let's build your next chapter.' with a 'Discuss your project' button. Never show client counts, years, ratings, testimonials or invented outcomes. Light-to-dark transitions use a soft angled or curved edge with a hairline blue branch line crossing the seam.",
+      "route": "/",
+      "lang": "en",
+      "home": true,
+      "auth": false,
+      "type": "page",
+      "seo": {
+        "title": "BlueOak Software LLC — Strong foundations. Exceptional software.",
+        "description": "BlueOak Software LLC designs and builds custom software, web and mobile apps, AI automation and SaaS products around your business and users."
+      }
+    },
+    {
+      "name": "Services",
+      "title": "Services",
+      "info": "A light, airy page on off-white (#F7FAFF) that explains capabilities. (1) A compact intro header titled 'From first idea to working product.' with one line of supporting copy and a thin branching line ornament. (2) A coherent but varied services grid of six editable draft services: 1 Custom Software Development and 4 AI and Automation are large featured cards spanning two columns with a miniature interface illustration (a code/module diagram and a workflow-automation node graph), while 2 Web Application Development, 3 Mobile App Development, 5 SaaS Product Development and 6 Product Design and Integrations are standard cards with a restrained line icon. Every card has a short heading and two sentences, one on the client problem and one on the capability BlueOak offers. Example: 'Off-the-shelf tools rarely fit how your team actually works. We design and build software around your processes so it grows with you.' Cards have subtle pale-blue borders and a hover lift with a bright-blue (#008FF0) edge glow, and the content stays fully visible without hover. (3) A process section titled 'A clear path from idea to launch.' with the four steps (01 Discover — Align on the problem, users, and priorities. 02 Design — Shape the experience and validate the direction. 03 Build — Develop, review, and refine the product. 04 Launch & Evolve — Release, learn, and plan the next improvements.) connected by a branching SVG line that draws in on scroll. (4) A closing CTA linking to /contact. All service copy is kept in one clearly marked array at the top of the code so it is easy to replace.",
+      "route": "/services",
+      "lang": "en",
+      "home": false,
+      "auth": false,
+      "type": "page",
+      "seo": {
+        "title": "Services — BlueOak Software LLC",
+        "description": "Custom software, web and mobile apps, AI and automation, SaaS products, product design and integrations — from first idea to working product."
+      }
+    },
+    {
+      "name": "Work",
+      "title": "Work",
+      "info": "A dark midnight-navy page for selected work and products. (1) Header titled 'Software with a purpose.' with a short line explaining that the examples below illustrate the kind of work BlueOak takes on. (2) The Project records sorted by sortOrder, each shown as a large, visually distinct slot in alternating text-and-image rows. Each slot has an original HTML/CSS interface mockup (or the record's image when set) as the screenshot placeholder, a visible 'Concept project' badge when isConcept is true, the project name, the industry eyebrow, and labelled blocks for 'Client challenge' and 'What BlueOak delivered'. A 'Verified outcome' block is shown ONLY when the outcome field is filled, and a 'View project' link is shown ONLY when url is set (otherwise it is hidden, never a dead link). Seed three concept projects with neutral placeholders: a field-operations scheduling web app (Logistics), a patient intake mobile app concept (Healthcare) and an AI document-triage workflow (Professional services). None of them has outcomes or links. (3) An 'Our products' section that renders ONLY if the Product collection has records. Each product shows its name, who it serves, the problem it solves, a screenshot, and an action button ('Explore product' or 'Request a demo') linking to its actionUrl, or to /contact when actionUrl is empty. With no records, the whole section and its header nav link stay hidden. There is no 'Coming soon' text. (4) A CTA to /contact. Rows fade up on scroll.",
+      "route": "/work",
+      "lang": "en",
+      "home": false,
+      "auth": false,
+      "type": "page",
+      "seo": {
+        "title": "Work & Products — BlueOak Software LLC",
+        "description": "Concept projects and products that show how BlueOak Software LLC approaches real business problems with thoughtfully designed software."
+      }
+    },
+    {
+      "name": "About",
+      "title": "About",
+      "info": "A typographic, calm page. (1) A large statement header titled 'Thoughtful software. Built for what's next.' in oversized navy type on off-white, with a fine branching SVG line growing from the baseline. (2) The editable draft paragraph 'BlueOak Software LLC brings a considered approach to digital products: understand the problem, design with purpose, and build with care.' set large beside an abstract engineering illustration (a layered system diagram of modules connected by branch lines, in blue tones). (3) Three principle cards derived only from that paragraph: Understand the problem, Design with purpose, Build with care, each with one short sentence. (4) A navy CTA band linking to /contact. There is no team photo, and no claims about team size, location, years, certifications or client counts. Copy sits in one clearly marked block for easy editing.",
+      "route": "/about",
+      "lang": "en",
+      "home": false,
+      "auth": false,
+      "type": "page",
+      "seo": {
+        "title": "About — BlueOak Software LLC",
+        "description": "Thoughtful software, built for what's next. Learn how BlueOak Software LLC approaches digital products: understand, design with purpose, build with care."
+      }
+    },
+    {
+      "name": "Contact",
+      "title": "Contact",
+      "info": "A split layout. The left side is a dark navy panel with the headline 'Let's build your next chapter.', the supporting text 'Tell us what you're planning and what you need your software to achieve.' and a subtle animated branch line with light traveling along it. There is no invented email, phone, address or response-time promise. The right side is a white card with the ContactForm library component saving to ContactMessage. It has visible labels for Name (required), Work email (required, email validation), Company (optional) and Project summary (required, textarea, min 20 chars), and a button labelled 'Send inquiry'. A success state ('Thanks — your inquiry has been received.') appears only after the record is actually saved, and a clear error state with a retry option appears on failure. Inline validation messages are shown under each field. The form is accessible with focus rings in bright blue.",
+      "route": "/contact",
+      "lang": "en",
+      "home": false,
+      "auth": false,
+      "type": "page",
+      "seo": {
+        "title": "Contact — BlueOak Software LLC",
+        "description": "Tell BlueOak Software LLC what you're planning and what you need your software to achieve. Send an inquiry to discuss your project."
+      }
+    }
+  ],
+  "design": {
+    "direction": "Oak Blueprint — a navy, royal-blue and bright-blue software studio built from the BlueOak logo",
+    "brand": "Palette from the logo: deep navy #091A3A, royal blue #1244AD, bright blue #008FF0, pale blue #EAF5FF and #D6E6FA. Headings in Nunito 800 (rounded, geometric like the wordmark), body in Manrope. Key words and primary buttons use the gradient from #1244AD to #008FF0 (classes yb-gradient-text and bg-gradient-to-r from-primary to-accent). The logo comes from schema.icon: on white in the header, on a white chip in the dark footer. Content container 1200px, cards 16px radius with 1px #D6E6FA border and soft navy shadow, hover lift with bright-blue border. Ornaments: the shared OakBranch component (variant branch, arc or seam) – oak branches with small leaves and a travelling light, plus a sweeping arc as a background accent. Section rhythm py-20 md:py-32.",
+    "concept": "Quiet confidence: crisp white space, deep midnight navy and a single bright blue that behaves like light moving through circuitry. The oak appears only as abstract branching lines, technical diagrams that grow and connect. Visitors should feel they are dealing with a careful, dependable studio that designs real products, not a template agency.",
+    "layout": "A white sticky header panel sits on top so the white-background logo looks native. Below it, full-width bands alternate deliberately: a dark navy hero, light off-white service sections, a dark featured-work band, a light process band and a navy footer. Content sits in a 1200px container with generous 120-160px vertical rhythm, compressing to about 72px on mobile. Seams between light and dark bands use a soft diagonal edge crossed by a hairline blue branch line, so every transition feels intentional.",
+    "nav": "White header: the logo at its original proportions on the left (about 40px tall on desktop, 30px on mobile), then text links Services · Work · Products · About · Contact with a 2px bright-blue underline that slides in for the active page. Products links to the products section on /work and is hidden when no products exist. A solid deep-blue (#1244AD) pill button 'Discuss your project' sits on the right. On scroll the header shrinks from 84px to 64px and gains a hairline bottom border and soft shadow. On mobile a hamburger opens an accessible full-height side drawer from the right with large links, the CTA at the bottom, focus trapping and closing on Esc.",
+    "hero": "Midnight-navy field with a faint blueprint grid. On the left are the small uppercase label 'BlueOak Software LLC', the two-line headline 'Strong foundations. / Exceptional software.' with 'Exceptional software.' in a blue gradient (#1244AD→#008FF0), the supporting copy, and the CTAs (solid bright-blue + white outline). On the right is a hand-built dashboard composition (line chart, KPI tiles, data rows) with two smaller floating panels tilted slightly, linked by thin branching SVG paths along which a soft blue light pulse travels. On mobile it collapses to one dashboard card below the text.",
+    "sections": "Navy hero → light bento services with two large featured tiles → dark navy featured work in editorial alternating rows → light process with branching connectors → navy closing CTA → navy footer. Light and dark alternate, contained cards alternate with full-bleed bands, and text rows alternate with mockup rows.",
+    "typography": "Nunito (rounded, geometric, like the wordmark) for headings and Manrope for body text. Headings are 800 weight, oversized and fluid (clamp 40px→76px for the hero), with tight -0.02em tracking. Small uppercase eyebrows use 0.14em letter-spacing in bright blue. Body text is 17-18px in #152440 on light sections and soft #C9D8F2 on dark ones, with comfortable 1.65 line height.",
+    "shapes": "16px card corners and fully rounded pill buttons. Light sections use 1px pale-blue (#D6E6FA) hairline borders and very soft navy-tinted shadows, while dark sections use 1px rgba white 0.08 borders. Dividers are thin branching SVG lines rather than plain rules.",
+    "imagery": "No stock photography. Every visual is an original HTML/CSS/SVG interface mockup or abstract engineering diagram in the brand blues (#091A3A, #1244AD, #008FF0, #EAF5FF). Project placeholders are clean UI mockups inside a device-less frame with a subtle top bar.",
+    "motion": "Restrained and purposeful: fade-up and slight rise on scroll, branch lines that draw themselves in when they enter view, one slow blue light pulse traveling along 2-3 hero paths, gentle hover lift on cards and a slight float on the hero panels. Motion respects prefers-reduced-motion. There are no particles and no glassmorphism.",
+    "signature": "The 'living oak branch' line (the OakBranch component: branches with small leaves and a sweeping arc accent): a single thin blue branching path that starts in the hero diagram, reappears crossing each light/dark seam and connects the four process steps, with a small point of light traveling along it, like a quiet thread of growth through the whole site."
+  },
+  "libraryComponents": [
+    "ContactForm"
+  ],
+  "auth": {
+    "enabled": false,
+    "type": "public",
+    "hasUserRoles": false,
+    "hasAdmin": false
+  },
+  "payments": {
+    "enabled": false
+  },
+  "laterPages": [
+    "Case study pages",
+    "Privacy Policy"
+  ],
+  "ownerQuestions": {
+    "intro": "A few quick questions so the site reflects BlueOak exactly:",
+    "questions": [
+      {
+        "q": "Do you have real projects to replace the concept examples?",
+        "options": [
+          "Yes, I'll add them",
+          "Keep concept projects for now"
+        ]
+      },
+      {
+        "q": "Should the Products section go live?",
+        "options": [
+          "Yes — I'll share product details",
+          "Keep it hidden for now"
+        ]
+      },
+      {
+        "q": "Which contact details may appear on the site?",
+        "multi": true,
+        "options": [
+          "Business email",
+          "Phone number",
+          "LinkedIn profile",
+          "Form only"
+        ]
+      }
+    ]
+  }
+}
